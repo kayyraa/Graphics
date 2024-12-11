@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(40, 40, 40);
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+.LightRay {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    aspect-ratio: 1;
+    width: 5px;
+}
+
+.LightRay > span {
+    position: absolute;
+    left: 5px;
+    display: none;
+}
+
+.Material {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
